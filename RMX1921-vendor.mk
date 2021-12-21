@@ -1495,7 +1495,25 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/verymobile_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/verymobile_it.pb \
     vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/virgin_gb.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/virgin_gb.pb \
     vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/vodafone_cz.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/vodafone_cz.pb \
-    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/windtre_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/windtre_it.pb
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/windtre_it.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/windtre_it.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/a1_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_at.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/ahamo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ahamo_jp.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/assurance_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/assurance_us.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/att5gsa_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/att5gsa_us.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/coriolis_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/coriolis_fr.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/docomomvno_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/docomomvno_jp.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/free_fr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/free_fr.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/halebop_se.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/halebop_se.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/kpn_nl.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/kpn_nl.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/liberty_pr.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/liberty_pr.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/linemo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/linemo_jp.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/metropcs_us.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/metropcs_us.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/onecall_no.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/onecall_no.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/rogers5g_ca.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/rogers5g_ca.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/stc_sa.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/stc_sa.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/telia_dk.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/telia_dk.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/tmobile_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/tmobile_at.pb \
+    vendor/realme/RMX1921/proprietary/product/etc/CarrierSettings/uqmobile_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/uqmobile_jp.pb
 
 #MotoDolby
 PRODUCT_COPY_FILES += \
