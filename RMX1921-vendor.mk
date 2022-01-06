@@ -26,6 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.factory-V1.0-java.jar \
     vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.factory-V1.1-java.jar \
     vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.factory-V2.0-java.jar \
+    vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.connection-V1.0-java.jar \
+    vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcssip-V1.0-java.jar \
+    vendor/realme/RMX1921/proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsuce-V1.0-java.jar \
     vendor/realme/RMX1921/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/realme/RMX1921/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/realme/RMX1921/proprietary/system_ext/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/wfdservice.rc \
