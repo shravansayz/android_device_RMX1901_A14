@@ -105,10 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/system_ext/lib/libwfduibcsrc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrc.so \
     vendor/realme/RMX1921/proprietary/system_ext/lib/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libwfduibcsrcinterface.so \
     vendor/realme/RMX1921/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
-    vendor/realme/RMX1921/proprietary/system_ext/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/extractors/libmmparserextractor.so \
-    vendor/realme/RMX1921/proprietary/system_ext/lib/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libavenhancements.so \
-    vendor/realme/RMX1921/proprietary/system_ext/lib64/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/extractors/libmmparserextractor.so \
-    vendor/realme/RMX1921/proprietary/system_ext/lib64/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libavenhancements.so \
     vendor/realme/RMX1921/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/realme/RMX1921/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
     vendor/realme/RMX1921/proprietary/system_ext/lib64/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmrtpdecoder.so \
@@ -1568,7 +1564,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1921/proprietary/vendor/etc/camera/prebuilt/spc_calibration_s5kgw1_p24c128e_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/spc_calibration_s5kgw1_p24c128e_sunny.bin
 
 PRODUCT_PACKAGES += \
-    libqct_resampler \
     SoterService \
     CneApp \
     IWlanService \
