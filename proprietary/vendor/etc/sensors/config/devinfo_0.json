@@ -24,7 +24,7 @@
         "data": "stk3x3x_1_platform.ps.fac_cal"
       }
     },
-    ".gsesnor":{
+    ".gsensor":{
       "owner": "oppo",
       "cal_path":{ "type": "str", "ver": "0",
         "data": "defult"

@@ -1,7 +1,7 @@
 {
   "config":{
     "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
-    "soc_id": ["291", "246", "305", "321", "336", "341", "360","347", "393"]
+    "soc_id": ["336", "341", "360"]
   },
   "bmi160_0_platform":{
     "owner": "bmi160",
@@ -19,8 +19,8 @@
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
         "data": "0"
       },
-      "max_bus_speed_khz":{ "type": "int", "ver": "3",
-        "data": "9600"
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "3300"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
@@ -82,13 +82,13 @@
     },
     ".orient_18041":{
       "owner": "bmi160",
-      "x":{ "type": "str", "ver": "4",
+      "x":{ "type": "str", "ver": "5",
+        "data": "+x"
+      },
+      "y":{ "type": "str", "ver": "5",
         "data": "-y"
       },
-      "y":{ "type": "str", "ver": "4",
-        "data": "-x"
-      },
-      "z":{ "type": "str", "ver": "4",
+      "z":{ "type": "str", "ver": "5",
         "data": "-z"
       }
     },
