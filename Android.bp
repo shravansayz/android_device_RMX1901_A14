@@ -6,6 +6,17 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "SoterService",
+	owner: "realme",
+	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "CneApp",
 	owner: "realme",
 	apk: "proprietary/vendor/app/CneApp/CneApp.apk",
@@ -28,17 +39,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoterService",
-	owner: "realme",
-	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
-android_app_import {
 	name: "TimeService",
 	owner: "realme",
 	apk: "proprietary/vendor/app/TimeService/TimeService.apk",
@@ -50,14 +50,25 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PowerOffAlarm",
+	name: "ImsRcsService",
 	owner: "realme",
-	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
+	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
 	},
-	product_specific: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "PowerOffAlarm",
+	owner: "realme",
+	apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
 }
 
 android_app_import {
@@ -122,13 +133,13 @@ android_app_import {
 dex_import {
 	name: "WfdCommon",
 	owner: "realme",
-	jars: ["proprietary/framework/WfdCommon.jar"],
+	jars: ["proprietary/system/framework/WfdCommon.jar"],
 }
 
 dex_import {
 	name: "tcmclient",
 	owner: "realme",
-	jars: ["proprietary/framework/tcmclient.jar"],
+	jars: ["proprietary/system/framework/tcmclient.jar"],
 }
 
 dex_import {
@@ -174,16 +185,9 @@ dex_import {
 }
 
 dex_import {
-	name: "vendor.qti.ims.factory-V1.0-java",
+	name: "vendor.qti.ims.connectionaidlservice-V1-java",
 	owner: "realme",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V1.1-java",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar"],
 	system_ext_specific: true,
 }
 
@@ -205,6 +209,27 @@ dex_import {
 	name: "vendor.qti.ims.factory-V2.2-java",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.factoryaidlservice-V1-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factoryaidlservice-V1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcssipaidlservice-V1-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssipaidlservice-V1-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.ims.rcsuceaidlservice-V1-java",
+	owner: "realme",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar"],
 	system_ext_specific: true,
 }
 
