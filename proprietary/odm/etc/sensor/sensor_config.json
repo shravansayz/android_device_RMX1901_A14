@@ -1,5 +1,5 @@
 {
-    "19651":{
+    "18041":{
         "platform_config":{
             "sensor_arch":"qcom_sensor_see"
         },
@@ -7,13 +7,7 @@
             "android.sensor.accelerometer":{
                 "type":1,
                 "support":"true",
-                "module":"lsm6ds3_c|bmi160",
-                "lsm6ds3_c":{
-                    "mode":"batch_cali|factory_cali",
-                    "offset_x": 0.0,
-                    "offset_y": 0.0,
-                    "offset_z": 0.0
-                },
+                "module":"bmi160",
                 "bmi160":{
                     "mode":"batch_cali|factory_cali",
                     "offset_x": 0.0,
@@ -24,25 +18,15 @@
             "android.sensor.magnetic_field":{
                 "type":2,
                 "support":"true",
-                "module":"ak0991x|mmc5603x",
+                "module":"ak0991x",
                 "ak0991x":{
-                  "mode":"batch_cali"
-                },
-                "mmc5603x":{
-                  "mode":"batch_cali"
+                    "mode":"batch_cali"
                 }
             },
             "android.sensor.gyroscope":{
                 "type":4,
                 "support":"true",
-                "module":"lsm6ds3_c|bmi160",
-                "lsm6ds3_c":{
-                    "mode":"batch_cali|factory_cali",
-                    "radian_threshold":0.05,
-                    "offset_x": 0.0,
-                    "offset_y": 0.0,
-                    "offset_z": 0.0
-                },
+                "module":"bmi160",
                 "bmi160":{
                     "mode":"batch_cali|factory_cali",
                     "radian_threshold":0.05,
@@ -100,3 +84,4 @@
         }
     }
 }
+
