@@ -1354,9 +1354,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1901/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
-    SoterService \
     CneApp \
     IWlanService \
+    SoterService \
     TimeService \
     ImsRcsService \
     PowerOffAlarm \
